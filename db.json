@@ -1,6 +1,20 @@
-"test" : [
-{"nodename": "test", "nodetype": "dir", "datetime": "02.10.2018 12:34:23"}, 
-{"nodetype": "file", "nodename": "test2", "datetime": "21.03.2018 23:40:23"}, 
-{"nodetype": "file", "nodename": "fileapp.sh", "datetime": "12:43:52"}, 
-{"nodetype": "dir", "nodenane": "mydir", "datetime": "03.12.2017 03:23:24"}
-]
+{
+  "test" : [
+    {"nodename": "test", "nodetype": "dir", "datetime": "02.10.2018 12:34:23"}, 
+    {"nodetype": "file", "nodename": "test2", "datetime": "21.03.2018 23:40:23"}, 
+    {"nodetype": "file", "nodename": "fileapp.sh", "datetime": "12:43:52"}, 
+    {"nodetype": "dir", "nodenane": "mydir", "datetime": "03.12.2017 03:23:24"}
+  ],
+ "posts": [
+    { "name": "Выручка", "today": 500521, "yesterday": 480521, "week": 480521},
+    { "name": "Наличные", "today": 300000, "yesterday": 300000, "week": 300000},
+    { "name": "Безналичный расчет", "today": 100000, "yesterday": 100000, "week": 100000},
+    { "name": "Кредитные карты", "today": 100521, "yesterday": 100521, "week": 100521},
+    { "name": "Средний чек,руб", "today": 1300, "yesterday": 900, "week": 900},
+    { "name": "Средний гость,руб", "today": 1200, "yesterday": 800, "week": 800},
+    { "name": "Удаление из чека(после оплаты),руб", "today": 1000, "yesterday": 1100, "week": 900},
+    { "name": "Удаления из счета(до оплаты),руб", "today": 1300, "yesterday": 1300, "week": 900},
+    { "name": "Количество чеков", "today": 34, "yesterday": 36, "week": 34},
+    { "name": "Количество гостей", "today": 34, "yesterday": 36, "week": 34}
+  ]
+}
